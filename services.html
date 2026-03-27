@@ -1,0 +1,297 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Jeny's Sharp Look Salon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="header">
+  <div class="container nav-wrapper">
+    <a href="index.html" class="logo"><img src="logo.png" alt="Jeny's Sharp Look Salon Logo"></a>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="contact.html" class="btn btn-yellow nav-book">Book Now</a>
+    <button class="hamburger" aria-label="Toggle Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-nav">
+  <a href="index.html">Home</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a>
+  <a href="pricing.html">Pricing</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn btn-yellow" style="margin-top:20px;text-align:center;">Book Now</a>
+</div>
+<div class="mobile-nav-overlay"></div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <h1>OUR <span>SERVICES</span></h1>
+  <p>Experienced hands. Elite results. Every single time.</p>
+</section>
+
+<!-- MAIN SERVICES -->
+<section class="section">
+  <div class="container">
+    <div class="section-title reveal">
+      <h2>GROOMING <span>SERVICES</span></h2>
+      <div class="title-line"></div>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal reveal-delay-1">
+        <i class="fas fa-cut icon"></i>
+        <h3>Stylish Haircut</h3>
+        <p>Personalized consultation, precise fade or scissor cut tailored to your structure.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <i class="fas fa-id-card icon"></i>
+        <h3>Stylish Beard Cut</h3>
+        <p>Sharp outlines, line-ups, and executive beard shaping with hot towel finish.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <i class="fas fa-spray-can icon"></i>
+        <h3>Hair Styling</h3>
+        <p>Blow-dry and professional product application. Leave looking like a boss.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-4">
+        <i class="fas fa-spa icon"></i>
+        <h3>Facial &amp; Skin Care</h3>
+        <p>Thai & Korean-grade hydration therapy to cleanse and restore skin's natural glow.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-1">
+        <i class="fas fa-hand-holding-heart icon"></i>
+        <h3>Hair Treatment</h3>
+        <p>Hair Spa and Keratin treatment for stronger, smoother hair.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <i class="fas fa-hot-tub icon"></i>
+        <h3>Head Massage</h3>
+        <p>Full body massage therapy — stress relief in 20 minutes.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <i class="fas fa-palette icon"></i>
+        <h3>Hair Treatment</h3>
+        <p>Mark Natural, Hi Speedy, Garnier, Revlon and Begin color options.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-4">
+        <i class="fas fa-hand-sparkles icon"></i>
+        <h3>Hair Styling</h3>
+        <p>Mix Fruit, Royal Diamond, Whitening & Gold facials for glowing skin.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPECIALIZED SERVICES -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="section-title reveal">
+      <h2>SPECIALIZED <span>TREATMENTS</span></h2>
+      <div class="title-line"></div>
+      <p>Advanced services for the modern grooming enthusiast.</p>
+    </div>
+    <div class="spec-grid">
+      <div class="spec-item reveal"><i class="fas fa-droplet"></i><span>Thai Hydra Facial</span></div>
+      <div class="spec-item reveal reveal-delay-1"><i class="fas fa-star-of-life"></i><span>Korean Hydra Facial</span></div>
+      <div class="spec-item reveal reveal-delay-2"><i class="fas fa-spa"></i><span>Mix Fruit Facial</span></div>
+      <div class="spec-item reveal reveal-delay-3"><i class="fas fa-gem"></i><span>Royal Diamond Facial</span></div>
+      <div class="spec-item reveal"><i class="fas fa-star"></i><span>Premium Whitening Facial</span></div>
+      <div class="spec-item reveal reveal-delay-1"><i class="fas fa-medal"></i><span>Premium Gold Facial</span></div>
+      <div class="spec-item reveal reveal-delay-2"><i class="fas fa-hand-sparkles"></i><span>Insta Glow Facial</span></div>
+      <div class="spec-item reveal reveal-delay-3"><i class="fas fa-seedling"></i><span>Natural / Anmol Mehedi</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- INTERACTIVE SERVICE MENU -->
+<section class="section" id="interactive-menu">
+  <div class="container">
+    <div class="section-title reveal">
+      <h2>INTERACTIVE <span>MENU</span></h2>
+      <div class="title-line"></div>
+      <p>Explore our treatments to find the perfect style for you.</p>
+    </div>
+    <div class="interactive-services reveal">
+      <div class="service-buttons">
+         <button class="service-btn active" data-target="haircut">Stylish Haircut</button>
+         <button class="service-btn" data-target="beard">Beard Cut</button>
+         <button class="service-btn" data-target="styling">Hair Styling</button>
+         <button class="service-btn" data-target="hydra">Thai Hydra Facial</button>
+         <button class="service-btn" data-target="korean">Korean Hydra Facial</button>
+         <button class="service-btn" data-target="treatment">Hair Spa / Keratin</button>
+         <button class="service-btn" data-target="headmassage">Body Massage</button>
+         <button class="service-btn" data-target="color">Hair Coloring</button>
+         <button class="service-btn" data-target="rebonding">Mehedi (Henna)</button>
+         <button class="service-btn" data-target="massage">Mix Fruit Facial</button>
+         <button class="service-btn" data-target="mani">Gold / Diamond Facial</button>
+      </div>
+
+      <div class="service-display">
+
+         <!-- Haircut -->
+         <div class="service-panel active" id="panel-haircut">
+           <img src="haircut_service.png" alt="Stylish Haircut">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Stylish Haircut</h3>
+             <p class="service-panel-desc">Personalized consultation and precise fade or scissor cut tailored to your face structure.</p>
+             <div class="service-panel-price">Included in all packages from ৳400</div>
+           </div>
+         </div>
+
+         <!-- Beard -->
+         <div class="service-panel" id="panel-beard">
+           <img src="beard_trim_service.png" alt="Stylish Beard Cut">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Stylish Beard Cut</h3>
+             <p class="service-panel-desc">Sharp outlines, line-ups, and executive beard shaping with a hot towel finish.</p>
+             <div class="service-panel-price">Included in all packages</div>
+           </div>
+         </div>
+
+         <!-- Hair Styling -->
+         <div class="service-panel" id="panel-styling">
+           <img src="hair_styling_service.png" alt="Hair Styling">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Hair Styling</h3>
+             <p class="service-panel-desc">Professional blow-dry and styling product application so you leave looking sharp.</p>
+             <div class="service-panel-price">Included in Package 1 &amp; Premium Package 2</div>
+           </div>
+         </div>
+
+         <!-- Hydra Facial -->
+         <div class="service-panel" id="panel-hydra">
+           <img src="hydra_facial_service.png" alt="Thai Hydra Facial">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Thai Hydra Facial</h3>
+             <p class="service-panel-desc">Advanced hydration facial treatment to cleanse and restore the skin's natural glow.</p>
+             <div class="service-panel-price">৳2999</div>
+           </div>
+         </div>
+
+         <!-- Korean Hydra Facial -->
+         <div class="service-panel" id="panel-korean">
+           <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800" alt="Korean Hydra Facial">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Korean Hydra Facial</h3>
+             <p class="service-panel-desc">Premium Korean hydration therapy for deep skin nourishment and smooth texture.</p>
+             <div class="service-panel-price">৳3500</div>
+           </div>
+         </div>
+
+         <!-- Hair Treatment -->
+         <div class="service-panel" id="panel-treatment">
+           <img src="https://images.unsplash.com/photo-1519824145371-296894a0daa9?auto=format&fit=crop&w=800" alt="Hair Treatment">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Hair Spa / Keratin Treatment</h3>
+             <p class="service-panel-desc">Hair Spa (৳500) and Keratin Treatment (৳550) for stronger, healthier hair.</p>
+             <div class="service-panel-price">Starting from ৳500</div>
+           </div>
+         </div>
+
+         <!-- Body Massage -->
+         <div class="service-panel" id="panel-headmassage">
+           <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800" alt="Body Massage">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Full Body Massage</h3>
+             <p class="service-panel-desc">Relaxing full body massage therapy — 10 min (free with facials) or 20 min package.</p>
+             <div class="service-panel-price">Free with selected packages</div>
+           </div>
+         </div>
+
+         <!-- Hair Coloring -->
+         <div class="service-panel" id="panel-color">
+           <img src="https://images.unsplash.com/photo-1620331311520-246422fd82f9?auto=format&fit=crop&w=800" alt="Hair Coloring">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Hair Coloring</h3>
+             <p class="service-panel-desc">Mark Natural (৳450), Hi Speedy (৳400), Garnier (৳450), Revlon (৳550), Begin (৳550).</p>
+             <div class="service-panel-price">Starting from ৳400</div>
+           </div>
+         </div>
+
+         <!-- Mehedi -->
+         <div class="service-panel" id="panel-rebonding">
+           <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800" alt="Mehedi Henna">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Mehedi (Henna)</h3>
+             <p class="service-panel-desc">Natural Mehedi and Anmol Mehedi available for hair coloring and styling.</p>
+             <div class="service-panel-price">৳300 each</div>
+           </div>
+         </div>
+
+         <!-- Mix Fruit Facial -->
+         <div class="service-panel" id="panel-massage">
+           <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800" alt="Mix Fruit Facial">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Mix Fruit Facial</h3>
+             <p class="service-panel-desc">Full fruit facial with scrub, massage cream, toning gel, face pack, steam, suction & moisturizer. Free 10 min massage included.</p>
+             <div class="service-panel-price">৳450</div>
+           </div>
+         </div>
+
+         <!-- Gold / Diamond Facial -->
+         <div class="service-panel" id="panel-mani">
+           <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=800" alt="Gold Diamond Facial">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Gold / Diamond Facial</h3>
+             <p class="service-panel-desc">Royal Diamond Facial (৳1500), Premium Whitening (৳1250), Premium Gold (৳900). All include steam, suction &amp; free 10 min massage.</p>
+             <div class="service-panel-price">Starting from ৳900</div>
+           </div>
+         </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-band">
+  <div class="container">
+    <h2 class="reveal">READY TO LOOK YOUR BEST?</h2>
+    <p class="reveal">Book your appointment now at Jeny's Sharp Look Salon.</p>
+    <div class="cta-band-btns reveal">
+      <a href="contact.html" class="btn btn-yellow">Book Appointment</a>
+      <a href="pricing.html" class="btn btn-outline">View Pricing</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img src="logo.png" alt="Jeny's Sharp Look Salon Logo"></a>
+        <p>Professional grooming services for modern men with expert care and clean environment.</p>
+        <div class="social-row">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Pages</h4><ul>
+        <li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li><li><a href="pricing.html">Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul>
+        <li><a href="tel:+8801789675993">01789-675993</a></li>
+        <li><a href="tel:+8801789675993">01789-675993</a></li>
+        <li><a href="mailto:masudrana5993@gmail.com">masudrana5993@gmail.com</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 Jeny's Sharp Look Salon. All Rights Reserved. Sharp Style. Smart Look.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
